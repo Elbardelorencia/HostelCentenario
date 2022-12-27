@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "929344632687",
+    "project_id": "hostelpergamino-3739c",
+    "storage_bucket": "hostelpergamino-3739c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929344632687:android:f15ee2060c5459791f1a9a",
+        "android_client_info": {
+          "package_name": "com.g4g.hostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929344632687-bl78j88j128genbm07qamasik7c4jcfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5hRnagltdiR2mYgg7vk5UNQiLalopcgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929344632687-bl78j88j128genbm07qamasik7c4jcfc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "929344632687-lbplnv0okjemvvceoa73mgdqee0a551f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.g4g.hostel"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929344632687:android:4c4b57f8a5f2046b1f1a9a",
+        "android_client_info": {
+          "package_name": "com.hostelpergamino.hostelpergamino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929344632687-bl78j88j128genbm07qamasik7c4jcfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5hRnagltdiR2mYgg7vk5UNQiLalopcgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929344632687-bl78j88j128genbm07qamasik7c4jcfc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "929344632687-lbplnv0okjemvvceoa73mgdqee0a551f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.g4g.hostel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
