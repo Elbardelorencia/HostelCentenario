@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
                 child: Text('Hostel'),
               ),
               ListTile(
-                title: const Text('Config'),
+                title: const Text('Configuracion'),
                 onTap: () {},
               )
             ],
