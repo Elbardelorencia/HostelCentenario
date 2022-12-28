@@ -1,14 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:hidden_drawer_menu/hidden_drawer_menu.dart';
-import 'package:hidden_drawer_menu/model/item_hidden_menu.dart';
-import 'package:hidden_drawer_menu/model/screen_hidden_drawer.dart';
-import 'package:hostel/loginpage.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
+  @override
   State<HomePage> createState() => _HomePageState();
 }
 
@@ -18,53 +14,38 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
-          title: const Text('Home'),
+          title: const Text('Bienvenido'),
         ),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text('Iniciaste sesion como ' + user.email!),
-              MaterialButton(
-                onPressed: () {
-                  FirebaseAuth.instance.signOut();
-                },
-                color: Colors.deepPurple[200],
-                child: Text('Cerrar Sesion'),
-              )
-            ],
+            children: [],
           ),
         ),
         drawer: Drawer(
           child: ListView(
             padding: EdgeInsets.zero,
             children: [
-              const DrawerHeader(
-                decoration: BoxDecoration(
-                  color: Colors.deepPurple,
+              DrawerHeader(
+                decoration: const BoxDecoration(
+                  color: Colors.blue,
                 ),
-                child: Text('Hostel'),
+                child: Center(
+                  child: Text('Iniciaste sesion como ' + user.email!),
+                ),
               ),
               ListTile(
                 title: const Text('Configuracion'),
                 onTap: () {},
-              )
+              ),
+              ListTile(
+                title: const Text('Cerrar Sesion'),
+                onTap: () {
+                  FirebaseAuth.instance.signOut();
+                },
+              ),
             ],
           ),
         ),
       );
 }
-/*
-class NavigationDrawer extends StatelessWidget {
- const NavigationDrawer({Key? key}) : super (key: key)
-
-
- 
-
-  @override
-  Widget build(BuildContext context) {
-    return Drawer(
-
-    );
-  }*/
-
